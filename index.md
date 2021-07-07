@@ -1,37 +1,86 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/islamshahil/AutonomousThreatSweep/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<!DOCTYPE>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>Securonix</title>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+<!-- main-wrapper -->
+<div id="main-wrapper" class="container_12">
+  <!-- header -->
+  <div id="header">
+    <div id="logo" class="grid_6">
+      <p class="title"><a href="#">Artemis</a></p>
+      <span class="description">Autonomous Threat Sweep</span> </div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+    <div id="menu" class="grid_6">
+      <ul>
+<!--         <li class="current_page_item"><a href="index.html">Home</a></li>
+        <li><a href="blog.html">blog</a></li>
+        <li><a href="xhtml-elements.html">xhtml</a></li> -->
+      </ul>
+    </div>
 
-### Markdown
+  </div>
+  <!-- end of header -->
+  <!-- content -->
+  <div id="content" class="grid_8">
+    <img src="images/artemis.png" alt="" width="90%" /> 
+    <div class="recent-posts">
+      <h2><a>What's this about?</a></h2>
+      <!-- <img class="alignleft" src="images/car.jpg" alt="" /> -->
+      <p>Artemis is a pseudo autonomous threat hunting tool developed in house by the Securonix Threat Labs to enable threat hunting at scale and at speed which allows for delivery of instantaneous detection and response in scenarios of global cyber threats and everyday attacks by automating the threat hunting process, reducing resources required, and optimizing the overall time of threat detection.Artemis leverages Snypr API to allow centralized querying of large sets of data stored in SOLR across multiple customer tenants in a fully automated way.</p>
+      <!-- <a class="more-link" href="#">Read More...</a>  -->
+    </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    <!-- <div id='test'></div>
+ -->
 
-```markdown
-Syntax highlighted code block
+  </div>
 
-# Header 1
-## Header 2
-### Header 3
+  <!-- end of content -->
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
+  <!-- sidebar -->
+  <div id="sidebar" class="grid_3">
+    <div class="sidebar-container">
+      <form method="get" id="searchform" action="#" >
+        <div>
+          <!-- <label class="screen-reader-text" for="s">Search for:</label> -->
+          <input type="text" value="" name="s" id="myInput" onkeyup="myFunction()" placeholder="Search for Threats.." />
+          <!-- <input type="submit" id="searchsubmit" value="Search" /> -->
+        </div>
+      </form>
+    </div>
 
-**Bold** and _Italic_ and `Code` text
+<!--     <div class="sidebar-container">
+      <h3>About Us</h3>
+      <p>We are the Next Gen Threat Hunting Solution Provider!</p>
+    </div> -->
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+    <h3 style="position:relative; left:20px;">Repository Contains</h3>
+    <div class="sidebar-repo">
+       <div id='container'></div>
+    </div>
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/islamshahil/AutonomousThreatSweep/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+  </div>
+  <!-- end of sidebar -->
+  <div class="clear"></div>
 
-### Support or Contact
+  <!-- footer -->
+<div id="footer" style="position:relative; left:100px; top:200px;">
+  <p>&copy; Copyright 2021 All Rights Reserved | Designed by <a href="https://securonix.com">Securonix Threat Labs</a></p>
+</div>
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</div>
+
+<script src="script.js"></script>
+
+</html>
+
